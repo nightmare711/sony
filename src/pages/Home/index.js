@@ -113,14 +113,14 @@ const mock5 = [
 
 export const Home = () => {
 	return (
-		<div className='home'>
+		<div id='banner' className='home'>
 			<div className='banner'>
 				<Slider {...settings}>
 					<img className='banner-1' src={require('../../assets/banner-1.jpeg')} alt='Banner 1' />
 					<img className='banner-2' src={require('../../assets/banner-2.jpeg')} alt='Banner 2' />
 				</Slider>
 			</div>
-			<div className='intro'>
+			<div id='gioi-thieu' className='intro'>
 				<div className='content'>
 					<span className='title'>TRUNG TÂM BẢO HÀNH VÀ SỬA CHỮA TIVI SONY</span>
 					<ul className='list-content'>
@@ -149,7 +149,7 @@ export const Home = () => {
 				<img className='right-img' src={require('../../assets/tivi.png')} alt='Tivi' />
 			</div>
 			<Container>
-				<div className='advantages'>
+				<div id='sua-tivi-sony' className='advantages'>
 					<Title
 						titleText={'LÝ DO NÊN CHỌN TRUNG TÂM BẢO HÀNH VÀ SỬA CHỮA SONY'}
 						backgroundColor='white'
@@ -189,7 +189,7 @@ export const Home = () => {
 					</div>
 				</div>
 			</Container>
-			<div className='choice'>
+			<div id='quy-trinh' className='choice'>
 				<Container>
 					<Title titleText={'QUY TRÌNH LÀM VIỆC CỦA CHÚNG TÔI'} backgroundColor='transparent' />
 				</Container>
@@ -221,7 +221,7 @@ export const Home = () => {
 					</div>
 				</Container>
 			</div>
-			<div className='footer'>
+			<div id='lien-he' className='footer'>
 				<Container>
 					<span className='title'>
 						LIÊN HỆ NGAY VỚI TRUNG TÂM SAMSUNG KHI THIẾT BỊ CỦA BẠN GẶP SỰ CỐ

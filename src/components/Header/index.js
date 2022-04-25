@@ -6,19 +6,19 @@ import './styles.css'
 const mock = [
 	{
 		title: 'Giới thiệu',
-		hash: '#gioi-thieu',
+		hash: 'gioi-thieu',
 	},
 	{
 		title: 'Quy trình',
-		hash: '#quy-trinh',
+		hash: 'quy-trinh',
 	},
 	{
 		title: 'Sửa tivi sony',
-		hash: '#sua-tivi-sony',
+		hash: 'sua-tivi-sony',
 	},
 	{
 		title: 'Liên hệ',
-		hash: '#lien-he',
+		hash: 'lien-he',
 	},
 ]
 
@@ -27,9 +27,24 @@ export const Header = () => {
 		<div className='header-container'>
 			<Container>
 				<div className='header'>
-					<img src={require('../../assets/logo.png')} alt='Logo' />
+					<img
+						onClick={() =>
+							document
+								.getElementById('banner')
+								.scrollIntoView({ behavior: 'smooth', block: 'start' })
+						}
+						src={require('../../assets/logo.png')}
+						alt='Logo'
+					/>
 					{mock.map((item, key) => (
-						<Link to={item.hash} key={key}>
+						<Link
+							onClick={() =>
+								document
+									.getElementById(item.hash)
+									.scrollIntoView({ behavior: 'smooth', block: 'start' })
+							}
+							key={key}
+						>
 							{item.title}
 						</Link>
 					))}
