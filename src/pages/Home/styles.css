@@ -1,0 +1,225 @@
+.home {
+    padding-top: 100px;
+
+}
+.home .banner {
+    height: 550px;
+    overflow: hidden;
+}
+.home .banner .slick-slide img {
+    height:550px !important;
+}
+
+.home .intro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.home .intro .content {
+    width: 500px;
+}
+.home .intro  .list-content{
+    list-style: none;
+    padding:0;
+    margin:0;
+    
+    font-size: 14px;
+    margin-right: 20px;
+}
+.home .intro .right-img {
+    width: 720px;
+}
+.home .intro  .list-content li {
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.home .intro  .list-content li .icon {
+    margin-right: 10px;
+    width: 23px;
+}
+.home .intro .title {
+    font-size: 30px;
+    font-weight: 600;
+    color: red;
+}
+
+.home .advantages {
+
+}
+.home .advantages .advantages-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 60px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.home .advantages .advantages-grid .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.home .advantages .advantages-grid .item svg {
+    font-size: 100px;
+    color:#009FE0;
+}
+.home .advantages .advantages-grid .title {
+    font-size: 25px;
+    font-weight: 600;
+    color:#8A7581;
+}
+.home .advantages .advantages-grid .subtitle {
+    color:#8E8E8E;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 600;
+    line-height: 21px;
+
+}
+
+.home .advantages-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.home .advantages-flex .part {
+    flex:1;
+    
+}
+.home .advantages-flex .part.left {
+    margin-right: 20px;
+}
+.home .advantages-flex .part.right {
+    margin-left:20px;
+}
+.home .advantages-flex .part .item {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(71, 70, 70);
+    color:white;
+    border-bottom:2px solid rgb(245, 37, 37);
+    padding:20px;
+    margin-top:20px;
+    height:50px;
+}
+.home .advantages-flex .middle {
+    width: 40%;
+}
+
+.home .choice {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:50px 0px;
+}
+.home .choice .choice-image {
+    width: 100%;
+}
+.home .choice .choice-image img {
+    width: 100%;
+}
+.home .choice .btn-register {
+    width: 200px;
+    padding:20px 0px;;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: #89B837;
+    margin-top:20px;
+}
+
+.home .customers {
+    background-color: #4B8FE2;
+    padding:50px 0px;
+}
+.home .customers .customers-list {
+
+}
+.home .customers .customers-list .item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.home .customers .customers-list .item img {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
+.home .customers .customers-list .item .item-right {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   color:white;
+   font-style: italic;
+   margin-left:20px;
+}
+.home .customers .customers-list .item .item-right .rating svg {
+    color:#D26E4B;
+}
+.home .customers .customers-list .item .item-right .name {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.home .footer {
+    background-color: #3CBE00;
+    padding:50px 0px;
+    color:white;
+
+}
+.home .footer .title {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+.home .footer .hotline {
+    font-size: 22px;
+    font-weight: 600;
+    color:red;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin:15px 0px;
+}
+.home .footer .location {
+    display: flex;
+    flex-direction: row;
+}
+.home .footer .location .left {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.home .footer .location .right {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.home .footer .location .subtitle{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.home .footer .location .item {
+    margin-top: 15px;
+}

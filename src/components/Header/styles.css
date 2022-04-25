@@ -1,0 +1,27 @@
+.header-container {
+    background-color: #4B8FE2;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+}
+.header-container .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+}
+.header-container .header img {
+    width:200px;
+}
+.header-container .header a {
+    display: block;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+    margin-left: 40px;
+}

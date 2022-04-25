@@ -1,0 +1,20 @@
+.title-container {
+   display: flex;
+   flex-direction: row; 
+   align-items: center;
+    
+}
+.title-container div {
+    flex:1;
+    height:1px;
+    background-color: rgb(173, 173, 173);
+}
+
+
+.title-container span{
+    font-size: 26px;
+    font-weight: 600;
+    color:#ff0000;
+    display: block;
+    margin:0px 40px;
+}
