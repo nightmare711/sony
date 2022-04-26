@@ -148,6 +148,33 @@ export const Home = () => {
 				</div>
 				<img className='right-img' src={require('../../assets/tivi.png')} alt='Tivi' />
 			</div>
+			<div id='gioi-thieu-part2' className='box-intro'>
+				<img className='' src={require('../../assets/tivi.png')} alt='Tivi' />
+				<div className='content'>
+					<div className='content-title'>
+						<span className='title'>TRUNG TÂM BẢO HÀNH VÀ SỬA CHỮA TIVI SONY</span>
+					</div>
+					<ul className='list-content'>
+						<li>
+							Hiện nay, trên địa bàn Thành phố Hồ Chí Minh có rất nhiều cơ sở sửa chữa tivi, tuy
+							nhiên không phải địa chỉ nào cũng đáng tin cậy và tay nghề cao. Do vậy, việc lựa chọn
+							xem địa chỉ nào sửa tivi giá rẻ mà lại chuyên nghiệp là điều không phải dễ. Dịch vụ
+							sửa tivi tại nhà Hồ Chí Minh được mở ra đáp ứng nhu cầu của rất nhiều khách hàng. Và
+							quan trọng nhất là sự tiện lợi.
+						</li>
+						<li className='main-text'>
+							Đơn vị chúng tôi có thể sửa được tất cả các lỗi từ đơn giản đến phức tạp như: tivi
+							đang chạy tự dưng tắt, bật nguồn không lên, hiện tượng màn hình bị trắng, loang màu,
+							có đốm sáng, bị sọc đứng, sọc ngang, hình mờ, hình bị nhiễu, tivi có tiếng không có
+							hình,…Sửa tivi tại nhà Hồ Chí Minh đã trở thành dịch vụ phổ biến, đáp ứng nhu cầu sửa
+							chữa tivi của các khách hàng một cách nhanh chóng và tiện lợi.
+						</li>
+						<li>
+							<h1>Hotline: 1900066664</h1>
+						</li>
+					</ul>
+				</div>
+			</div>
 			<Container>
 				<div id='sua-tivi-sony' className='advantages'>
 					<Title
