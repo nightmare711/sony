@@ -194,10 +194,7 @@ export const Home = () => {
 				</div>
 			</Container>
 			<Container>
-				<Title
-					titleText={'LÝ DO NÊN CHỌN TRUNG TÂM BẢO HÀNH VÀ SỬA CHỮA SONY'}
-					backgroundColor='white'
-				/>
+				<Title titleText={'LỢI ÍCH KHI KHÁCH CHỌN DỊCH VỤ'} backgroundColor='white' />
 				<div className='advantages-flex'>
 					<div className='part left'>
 						{mock1.map((item, index) => (
