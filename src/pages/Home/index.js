@@ -117,7 +117,8 @@ export const Home = () => {
 			<div className='banner'>
 				<Slider {...settings}>
 					<img className='banner-1' src={require('../../assets/banner-1.jpg')} alt='Banner 1' />
-					<img className='banner-2' src={require('../../assets/banner-2.jpeg')} alt='Banner 2' />
+					<img className='banner-2' src={require('../../assets/banner2.jpg')} alt='Banner 2' />
+					<img className='banner-3' src={require('../../assets/banner3.jpeg')} alt='Banner 3' />
 				</Slider>
 			</div>
 			<div id='gioi-thieu' className='intro'>
@@ -146,7 +147,7 @@ export const Home = () => {
 						</li>
 					</ul>
 				</div>
-				<img className='right-img' src={require('../../assets/tivi.png')} alt='Tivi' />
+				<img className='right-img' src={require('../../assets/tivi2.jpg')} alt='Tivi' />
 			</div>
 			<div id='gioi-thieu-part2' className='box-intro'>
 				<img className='' src={require('../../assets/tivi.png')} alt='Tivi' />
