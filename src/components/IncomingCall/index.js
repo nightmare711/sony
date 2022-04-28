@@ -1,6 +1,6 @@
 import React from 'react'
-import PhoneInTalkIcon from '@material-ui/icons/PhoneInTalk'
-import './IncomingCall.css'
+import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk'
+import './styles.css'
 
 export const IncomingCall = () => {
 	return (

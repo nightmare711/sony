@@ -1,7 +1,7 @@
 .phone-call {
   position: fixed;
   margin: 0 auto;
-  bottom: 60px;
+  bottom: 30px;
   left: 20px;
   z-index: 1;
   display: flex;
@@ -52,5 +52,10 @@
   25% {
     box-shadow: 0 0 0 15px rgba(44, 212, 32, 0.4),
       0 0 0 30px rgba(44, 212, 32, 0.2);
+  }
+}
+@media only screen and (max-width: 1064px) {
+  .phone-call{
+    bottom: 10px;
   }
 }
