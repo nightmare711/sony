@@ -249,7 +249,7 @@ export const Home = () => {
 			<div id='lien-he' className='footer'>
 				<Container>
 					<span className='title'>
-						LIÊN HỆ NGAY VỚI TRUNG TÂM SAMSUNG KHI THIẾT BỊ CỦA BẠN GẶP SỰ CỐ
+						LIÊN HỆ NGAY VỚI TRUNG TÂM SONY KHI THIẾT BỊ CỦA BẠN GẶP SỰ CỐ
 					</span>
 					<div className='hotline'>
 						<span>Hotline: 0818002026</span>
