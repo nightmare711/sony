@@ -15,11 +15,11 @@ import './styles.css'
 const settings = {
 	dots: false,
 	infinite: true,
-	speed: 500,
+	speed: 3000,
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	autoplay: true,
-	autoplaySpeed: 1500,
+	autoplaySpeed: 5000,
 	pauseOnHover: false,
 }
 
