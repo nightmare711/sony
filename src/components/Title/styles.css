@@ -19,3 +19,13 @@
     margin:0px 40px;
     text-align: center;
 }
+
+@media only screen and (max-width: 480px) {
+    .title-container span {
+        font-size: 22px;
+        
+    }
+    .title-container {
+        flex-direction: column;
+    }
+}

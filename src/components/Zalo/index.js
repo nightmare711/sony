@@ -3,6 +3,7 @@ import React from 'react'
 export const Zalo = () => {
 	return (
 		<img
+			onClick={() => window.open('https://zalo.me/0904123478', '_blank')}
 			style={{
 				position: 'fixed',
 				bottom: '50px',

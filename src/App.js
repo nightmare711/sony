@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { Header, Zalo, ScrollButton } from './components'
+import { Header, Zalo, ScrollButton, Menu } from './components'
 import { Home } from './pages'
 
 export const onMoveAnimation = (ele, animation) => {
@@ -31,6 +31,7 @@ const App = () => {
 		<Router>
 			<div className='App'>
 				<Header />
+				<Menu />
 				<Zalo />
 				<ScrollButton />
 				<Switch>

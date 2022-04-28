@@ -274,7 +274,10 @@
 .home .footer .location .item {
   margin-top: 15px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1064px) {
+  .home {
+    padding-top: 55px;
+  }
   .home .intro {
     display: block;
     align-items: center;
@@ -287,44 +290,68 @@
     margin: 0 auto;
     margin-top: 30px;
 }
-.home .box-intro .content-title {
-  width: 70%;
-}
-.home .intro .right-img {
-  width: 80%;
-}
+  .home .box-intro .content-title {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .home .intro .right-img {
+    
+    display: none;
+  }
+  .home .intro .list-content {
+    margin-right: 0px;
+  }
+  .home .box-intro .list-content {
+    margin-right: 0px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .home .advantages .advantages-grid{
     grid-template-columns: 1fr;
+  }
+  .home .intro .title {
+    font-size: 22px;
+    display: block;
+    width: 100%;
   }
   .home .box-intro .content {
     width: 100%;
     margin: 0 auto;
     margin-top: 30px;
     text-align: left;
-}
-.home .box-intro {
-  width: 95%;
-}
-.home .advantages-flex {
-  display: block;
-}
-.home .advantages-flex .part.right {
-  margin-left: 0;
-  margin-top: 30px;
-}
-.home .advantages-flex .part.left {
-  margin-right: 0;
-  margin-bottom: 30px;
-}
-.home .advantages-flex .middle {
-  width: 100%;
-}
-.home .footer .location{
-  display: block ;
-}
-.home .footer .location .subtitle {
-  margin-top: 30px;
-}
+  }
+  .home .banner {
+    height: auto;
+    overflow: hidden;
+  }
+  .home .banner .slick-slide img {
+    height: auto !important;
+  }
+  
+  .home .box-intro {
+    width: 95%;
+  }
+  .home .advantages-flex {
+    display: block;
+  }
+  .home .advantages-flex .part.right {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .home .advantages-flex .part.left {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .home .advantages-flex .middle {
+    width: 100%;
+  }
+  .home .footer .location{
+    display: block ;
+  }
+  .home .footer .location .subtitle {
+    margin-top: 30px;
+  }
 }
