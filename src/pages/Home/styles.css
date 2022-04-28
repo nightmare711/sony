@@ -309,19 +309,27 @@
   }
 }
 @media only screen and (max-width: 480px) {
+  .home{
+    font-size: 12px;
+  }
   .home .advantages .advantages-grid{
     grid-template-columns: 1fr;
   }
   .home .intro .title {
-    font-size: 22px;
+    font-size: 18px;
     display: block;
     width: 100%;
+    text-align: center;
   }
   .home .box-intro .content {
     width: 100%;
     margin: 0 auto;
     margin-top: 30px;
     text-align: left;
+    font-size: 12px;
+  }
+  .home .intro .list-content li, .home .box-intro .list-content li{
+    font-size: 12px;
   }
   .home .banner {
     height: auto;
@@ -353,5 +361,47 @@
   }
   .home .footer .location .subtitle {
     margin-top: 30px;
+  }
+  .home .box-intro .content-title{
+    font-size: 20px;
+  }
+  .home .box-intro .list-content li.main-text{
+    font-size: 13px;
+  }
+  .home .box-intro .list-content li h1{
+    font-size: 20px;
+  }
+  .home .advantages .advantages-grid .item svg{
+    font-size: 50px;
+  }
+  .home .advantages .advantages-grid .title{
+    font-size: 16px;
+  }
+  .home .advantages .advantages-grid .subtitle{
+    font-size: 13px;
+  }
+  .home .choice .btn-register{
+    font-size: 10px;
+    padding: 10px 0;
+    width: 110px;
+  }
+  .home .footer .title{
+    font-size: 18px;
+  }
+  .home .footer .hotline{
+    font-size: 17px;
+  }
+  .home .footer .location .subtitle{
+    font-size: 15px;
+  }
+  .home .customers .customers-list .item .item-right .name{
+    font-size: 15px;
+  }
+  .home .customers .customers-list .item img{
+    width: 80px;
+    height: 80px;
+  }
+  .home .customers .customers-list .item .item-right{
+
   }
 }

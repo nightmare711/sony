@@ -116,7 +116,7 @@ export const Home = () => {
 		<div id='banner' className='home'>
 			<div className='banner'>
 				<Slider {...settings}>
-					<img className='banner-1' src={require('../../assets/banner-1.jpeg')} alt='Banner 1' />
+					<img className='banner-1' src={require('../../assets/banner-1.jpg')} alt='Banner 1' />
 					<img className='banner-2' src={require('../../assets/banner-2.jpeg')} alt='Banner 2' />
 				</Slider>
 			</div>
@@ -170,7 +170,7 @@ export const Home = () => {
 							chữa tivi của các khách hàng một cách nhanh chóng và tiện lợi.
 						</li>
 						<li>
-							<h1>Hotline: 1900066664</h1>
+							<h1>Hotline: 0818002026</h1>
 						</li>
 					</ul>
 				</div>
@@ -251,7 +251,7 @@ export const Home = () => {
 						LIÊN HỆ NGAY VỚI TRUNG TÂM SAMSUNG KHI THIẾT BỊ CỦA BẠN GẶP SỰ CỐ
 					</span>
 					<div className='hotline'>
-						<span>Hotline: 1900.066.664</span>
+						<span>Hotline: 0818002026</span>
 					</div>
 					<div className='location'>
 						<div className='left'>
